@@ -1,0 +1,159 @@
+.grid {
+  margin: 0 auto;
+  max-width: 950px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+
+.images {
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-image {
+  position: relative;
+  width: 80%;
+  height: 70%;
+  margin: 0 auto 5%;
+}
+
+.other-images {
+  height: 25%;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.small-image {
+  position: relative;
+  cursor: pointer;
+  background-color: var(--background-color-shade);
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 8%;
+}
+
+.title {
+  margin: 0;
+}
+
+.product-brand {
+  font-size: 1.8rem;
+}
+
+.product-price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.product-quantity {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.product-description {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 950px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .main-image {
+    width: 35%;
+    height: 60%;
+    overflow: hidden;
+  }
+
+  .other-images {
+    height: 35%;
+    width: 60%;
+  }
+
+  .product {
+    height: 400px;
+  }
+}
+
+@media (max-width: 870px) {
+  .main-image {
+    width: 50%;
+  }
+
+  .other-images {
+    width: 80%;
+  }
+}
+
+@media (max-width: 650px) {
+  .main-image {
+    width: 60%;
+  }
+
+  .other-images {
+    width: 90%;
+  }
+
+  .product {
+    gap: 5%;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .product-brand {
+    font-size: 1.8rem;
+  }
+
+  .product-price {
+    font-size: 1.6rem;
+  }
+
+  .product-quantity {
+    font-size: 1.6rem;
+  }
+
+  .product-description {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-image {
+    width: 70%;
+  }
+
+  .other-images {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-image {
+    width: 90%;
+  }
+
+  .button-container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.6rem;
+  }
+
+}

@@ -1,0 +1,74 @@
+.product {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  height: 38rem;
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+  cursor: pointer;
+  max-width: 320px;
+}
+
+.product:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.2);
+}
+.product-image {
+  position: relative;
+  width: 70%;
+  height: 65%;
+  margin: 0 auto;
+}
+
+.product-details {
+  padding: 1.6rem 2.4rem 2.4rem 2.4rem;
+}
+
+.brand {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.brand-tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  color: #333;
+  border-radius: 100px;
+}
+
+.sanrio {
+  background-color: #40b4e2;
+}
+
+.san-x {
+  background-color: #fcf2ca;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  transition: all 0.4s;
+}
+
+.title:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.product-footer {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-price {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+

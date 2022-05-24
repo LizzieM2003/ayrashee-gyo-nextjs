@@ -1,16 +1,72 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+/* @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Rubik:wght@400;500;600;700&display=swap'); */
+
+/* CSS Variables */
+:root {
+  --primary-color: #e91125;
+  --primary-color-tint: #fde7e9;
+  --primary-color-shade: #ba0e1e;
+  --primary-dark-color: #414141;
+  --primary-background-color: #fbfbfb;
+  --background-color-shade: #f0f0f0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* 10/16px = 0.625 */
+  /* percentage of user's browser font size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  /* Does NOT work on Safari - only chrome and firefox */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--primary-dark-color);
+  background-color: var(--primary-background-color);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+section {
+  padding: 9.6rem 4.8rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  section {
+    padding: 5rem 2.5rem;
+  }
+}
+
+@media (max-width: 530px) {
+  section {
+    padding: 2rem 1rem;
+  }
 }

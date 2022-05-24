@@ -1,31 +1,25 @@
 import path from 'path';
 import fs from 'fs/promises';
 import Head from 'next/head';
-import HomeHeading from '../components/home/home-heading';
 import ProductsList from '../components/products/productsList';
 
-function HomePage(props) {
+function SanrioPage(props) {
   const { products } = props;
-  
   return (
     <>
       <Head>
-        <title>
-          Japanese San-X Sumikko Gurashi and Sanrio UK shop - Ayrashee Gyo
-        </title>
+        <title>Sanrio Plush UK shop - Ayrashee Gyo</title>
         <meta
           name="description"
-          content="Cute Japanese plush toys for sale in the UK at competitive prices. Stockists of San-X Sumikko Gurashi and Sanrio. Free delivery."
+          content="Cute Japanese Sanrio plush toys for sale in the UK at competitve prices. Free delivery."
         />
         <meta
           name="keywords"
-          content="Japanese, Plush, Sanrio, San-X, Sumikko Gurashi"
+          content="Japanese, Plush, Sanrio, Pompompurin, My Melody, Pochaco, Cinnamoroll"
         ></meta>
       </Head>
-      <HomeHeading />
-
       <ProductsList
-        title="Featured Plushies"
+        title="Sanrio Shop"
         products={products}
         gridType="grid--2-cols"
       />
@@ -35,7 +29,7 @@ function HomePage(props) {
 
 export async function getStaticProps(context) {
   const filePath = path.join(process.cwd(), 'data', 'products.json');
-  const jsonData = await fs.readFile(filePath, 'utf8');
+  const jsonData = await fs.readFile(filePath);
   const data = JSON.parse(jsonData);
 
   if (!data) {
@@ -50,13 +44,15 @@ export async function getStaticProps(context) {
     return { notFound: true }; // will render 404 page
   }
 
-  const featuredProducts = data.products.filter((item) => item.featured);
+  const sanrioProducts = data.products.filter(
+    (item) => item.brand === 'Sanrio' && item.quantity > 0
+  );
 
   return {
     props: {
-      products: featuredProducts,
+      products: sanrioProducts,
     }
-  }; 
+  }; // useful if you have fast changing data
 }
 
-export default HomePage;
+export default SanrioPage;

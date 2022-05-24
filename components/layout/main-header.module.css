@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color-tint);
+  height: 18rem;
+  padding: 0 8rem;
+
+  /* For mobile nav */
+  position: relative;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--primary-dark-color);
+  font-weight: 500;
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: var(--primary-color);
+}
+
+@media (max-width: 650px) {
+  .header {
+    padding: 0 3rem;
+  }
+  .main-nav-list {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.6rem;
+  }
+}

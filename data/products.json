@@ -1,0 +1,420 @@
+{
+  "products": [
+    {
+      "id": "zassou-keychain",
+      "title": "Sumikko Gurashi Zassou 8cm keychain plush",
+      "description": "This keychain plush toy is approximately 8cm tall and is suitable for ages 8 and over. Zassou is a weed shrub that is optimistic, happy and has a positive attitude! It has a big dream of one day becoming a bouquet of flowers.",
+      "quantity": 2,
+      "price": 10.99,
+      "type": "plush",
+      "brand": "San-X",
+      "character": "Sumikko Gurashi",
+      "main_image": "/images/zassou/zassou-main.png",
+      "summary_image": "/images/zassou/zassou-summ.png",
+      "main_images": {
+        "webp": "/images/zassou/zassou-main.webp",
+        "png": "/images/zassou/zassou-main.png"
+      },
+      "other_images": [
+        {
+          "webp": "/images/zassou/zassou-main.webp",
+          "png": "/images/zassou/zassou-main.png"
+        },
+        {
+          "webp": "/images/zassou/zassou-2.webp",
+          "png": "/images/zassou/zassou-2.png"
+        },
+        {
+          "webp": "/images/zassou/zassou-3.webp",
+          "png": "/images/zassou/zassou-3.png"
+        }
+      ],
+      "featured": true,
+      "ebay_url": "https://www.ebay.co.uk/itm/284666844598"
+    },
+    {
+      "id": "tapioca-keychain",
+      "title": "Sumikko Gurashi Tapioca 8cm keychain plush",
+      "description": "This keychain plush toy is approximately 8cm tall and is suitable for ages 8 and over. Tapioca is a pearl left over from a cup of bubble tea. As it is left over it is feeling pretty emotionless, hence the flat expression! This tapioca pearl is pink.",
+      "quantity": 3,
+      "price": 10.99,
+      "type": "plush",
+      "brand": "San-X",
+      "character": "Sumikko Gurashi",
+      "main_image": "/images/tapioca/tapioca-main.png",
+      "summary_image": "/images/tapioca/tapioca-summ.png",
+      "main_images": {
+        "webp": "/images/tapioca/tapioca-main.webp",
+        "png": "/images/tapioca/tapioca-main.png"
+      },
+      "other_images": [
+        {
+          "webp": "/images/tapioca/tapioca-main.webp",
+          "png": "/images/tapioca/tapioca-main.png"
+        },
+        {
+          "webp": "/images/tapioca/tapioca-2.webp",
+          "png": "/images/tapioca/tapioca-2.png"
+        },
+        {
+          "webp": "/images/tapioca/tapioca-3.webp",
+          "png": "/images/tapioca/tapioca-3.png"
+        }
+      ],
+      "featured": false,
+      "ebay_url": "https://www.ebay.co.uk/itm/284666853387"
+    },
+    {
+      "id": "nisetsumuri-keychain",
+      "title": "Sumikko Gurashi Nisetsumuri 8cm keychain plush",
+      "description": "This keychain plush toy is approximately 8cm tall and is suitable for ages 8 and over. Nisetsumuri is a slug that carries a shell on its back and pretends to be a snail. It feels guilty about this lie and apologises profusely.",
+      "quantity": 2,
+      "price": 10.99,
+      "type": "plush",
+      "brand": "San-X",
+      "character": "Sumikko Gurashi",
+      "main_image": "/images/nisetsumuri/nisetsumuri-main.png",
+      "summary_image": "/images/nisetsumuri/nisetsumuri-summ.png",
+      "main_images": {
+        "webp": "/images/nisetsumuri/nisetsumuri-main.webp",
+        "png": "/images/nisetsumuri/nisetsumuri-main.png"
+      },
+      "other_images": [
+        {
+          "webp": "/images/nisetsumuri/nisetsumuri-main.webp",
+          "png": "/images/nisetsumuri/nisetsumuri-main.png"
+        },
+        {
+          "webp": "/images/nisetsumuri/nisetsumuri-2.webp",
+          "png": "/images/nisetsumuri/nisetsumuri-2.png"
+        },
+        {
+          "webp": "/images/nisetsumuri/nisetsumuri-3.webp",
+          "png": "/images/nisetsumuri/nisetsumuri-3.png"
+        }
+      ],
+      "featured": false,
+      "ebay_url": "https://www.ebay.co.uk/itm/284732776867"
+    },
+    {
+      "id": "furoshiki-keychain",
+      "title": "Sumikko Gurashi Furoshiki 8cm keychain plush",
+      "description": "This keychain plush toy is approximately 8cm tall and is suitable for ages 8 and over. Furoshiki is a pink cloth with white spots and is Shirokuma's luggage. Also used as a blanket by Shirokuma when it is cold.",
+      "quantity": 2,
+      "price": 10.99,
+      "type": "plush",
+      "brand": "San-X",
+      "character": "Sumikko Gurashi",
+      "main_image": "/images/furoshiki/furoshiki-main.png",
+      "summary_image": "/images/furoshiki/furoshiki-summ.png",
+      "main_images": {
+        "webp": "/images/furoshiki/furoshiki-main.webp",
+        "png": "/images/furoshiki/furoshiki-main.png"
+      },
+      "other_images": [
+        {
+          "webp": "/images/furoshiki/furoshiki-main.webp",
+          "png": "/images/furoshiki/furoshiki-main.png"
+        },
+        {
+          "webp": "/images/furoshiki/furoshiki-2.webp",
+          "png": "/images/furoshiki/furoshiki-2.png"
+        },
+        {
+          "webp": "/images/furoshiki/furoshiki-3.webp",
+          "png": "/images/furoshiki/furoshiki-3.png"
+        }
+      ],
+      "featured": false,
+      "ebay_url": "https://www.ebay.co.uk/itm/284732824563"
+    },
+    {
+      "id": "suzume-keychain",
+      "title": "Sumikko Gurashi Suzume 8cm keychain plush",
+      "description": "This keychain plush toy is approximately 8cm tall and is suitable for ages 8 and over. Suzume is just a regular sparrow who is particularly fond of crumbs!",
+      "quantity": 3,
+      "price": 10.99,
+      "type": "plush",
+      "brand": "San-X",
+      "character": "Sumikko Gurashi",
+      "main_image": "/images/suzume/suzume-main.png",
+      "summary_image": "/images/suzume/suzume-summ.png",
+      "main_images": {
+        "webp": "/images/suzume/suzume-main.webp",
+        "png": "/images/suzume/suzume-main.png"
+      },
+      "other_images": [
+        {
+          "webp": "/images/suzume/suzume-main.webp",
+          "png": "/images/suzume/suzume-main.png"
+        },
+        {
+          "webp": "/images/suzume/suzume-2.webp",
+          "png": "/images/suzume/suzume-2.png"
+        },
+        {
+          "webp": "/images/suzume/suzume-3.webp",
+          "png": "/images/suzume/suzume-3.png"
+        }
+      ],
+      "featured": false,
+      "ebay_url": "https://www.ebay.co.uk/itm/284732843696"
+    },
+    {
+      "id": "obake-keychain",
+      "title": "Sumikko Gurashi Obake 8cm keychain plush",
+      "description": "This keychain plush toy is approximately 8cm tall and is suitable for ages 8 and over. Obake is a timid ghost that lives in the corner of an attic and loves to clean. It has a sense of humour but keeps its mouth closed so as not to scare people!",
+      "quantity": 1,
+      "price": 10.99,
+      "type": "plush",
+      "brand": "San-X",
+      "character": "Sumikko Gurashi",
+      "main_image": "/images/obake/obake-main.png",
+      "summary_image": "/images/obake/obake-summ.png",
+      "main_images": {
+        "webp": "/images/obake/obake-main.webp",
+        "png": "/images/obake/obake-main.png"
+      },
+      "other_images": [
+        {
+          "webp": "/images/obake/obake-main.webp",
+          "png": "/images/obake/obake-main.png"
+        },
+        {
+          "webp": "/images/obake/obake-2.webp",
+          "png": "/images/obake/obake-2.png"
+        },
+        {
+          "webp": "/images/obake/obake-3.webp",
+          "png": "/images/obake/obake-3.png"
+        }
+      ],
+      "featured": false,
+      "ebay_url": "https://www.ebay.co.uk/itm/284732903595"
+    },
+    {
+      "id": "hokori-keychain",
+      "title": "Sumikko Gurashi Hokori 8cm keychain plush",
+      "description": "This keychain plush toy is approximately 8cm tall and is suitable for ages 8 and over. Hokori is a dust ball found in the corner. It can combine with other hokoris to become a giant one! It is weak against water and turns into mould.",
+      "quantity": 2,
+      "price": 10.99,
+      "type": "plush",
+      "brand": "San-X",
+      "character": "Sumikko Gurashi",
+      "main_image": "/images/hokori/hokori-main.png",
+      "summary_image": "/images/hokori/hokori-summ.png",
+      "main_images": {
+        "webp": "/images/hokori/hokori-main.webp",
+        "png": "/images/hokori/hokori-main.png"
+      },
+      "other_images": [
+        {
+          "webp": "/images/hokori/hokori-main.webp",
+          "png": "/images/hokori/hokori-main.png"
+        },
+        {
+          "webp": "/images/hokori/hokori-2.webp",
+          "png": "/images/hokori/hokori-2.png"
+        },
+        {
+          "webp": "/images/hokori/hokori-3.webp",
+          "png": "/images/hokori/hokori-3.png"
+        }
+      ],
+      "featured": true,
+      "ebay_url": "https://www.ebay.co.uk/itm/284732948009"
+    },
+    {
+      "id": "fukuro-keychain",
+      "title": "Sumikko Gurashi Fukuro 8cm keychain plush",
+      "description": "This keychain plush toy is approximately 8cm tall and is suitable for ages 8 and over. Fukuro is an owl that tries its best to stay awake during the day even though it is nocturnal!",
+      "quantity": 2,
+      "price": 10.99,
+      "type": "plush",
+      "brand": "San-X",
+      "character": "Sumikko Gurashi",
+      "main_image": "/images/fukuro/fukuro-main.png",
+      "summary_image": "/images/fukuro/fukuro-summ.png",
+      "main_images": {
+        "webp": "/images/fukuro/fukuro-main.webp",
+        "png": "/images/fukuro/fukuro-main.png"
+      },
+      "other_images": [
+        {
+          "webp": "/images/fukuro/fukuro-main.webp",
+          "png": "/images/fukuro/fukuro-main.png"
+        },
+        {
+          "webp": "/images/fukuro/fukuro-2.webp",
+          "png": "/images/fukuro/fukuro-2.png"
+        },
+        {
+          "webp": "/images/fukuro/fukuro-3.webp",
+          "png": "/images/fukuro/fukuro-3.png"
+        }
+      ],
+      "featured": false,
+      "ebay_url": "https://www.ebay.co.uk/itm/284732962237"
+    },
+    {
+      "id": "mogura-keychain",
+      "title": "Sumikko Gurashi Mogura 8cm keychain plush",
+      "description": "This keychain plush toy is approximately 8cm tall and is suitable for ages 8 and over. Mogura is a mole that used to live in a corner deep underground mining crystals. He is shy and likes red boots.",
+      "quantity": 2,
+      "price": 10.99,
+      "type": "plush",
+      "brand": "San-X",
+      "character": "Sumikko Gurashi",
+      "main_image": "/images/mogura/mogura-main.png",
+      "summary_image": "/images/mogura/mogura-summ.png",
+      "main_images": {
+        "webp": "/images/mogura/mogura-main.webp",
+        "png": "/images/mogura/mogura-main.png"
+      },
+      "other_images": [
+        {
+          "webp": "/images/mogura/mogura-main.webp",
+          "png": "/images/mogura/mogura-main.png"
+        },
+        {
+          "webp": "/images/mogura/mogura-2.webp",
+          "png": "/images/mogura/mogura-2.png"
+        },
+        {
+          "webp": "/images/mogura/mogura-3.webp",
+          "png": "/images/mogura/mogura-3.png"
+        }
+      ],
+      "featured": false,
+      "ebay_url": "https://www.ebay.co.uk/itm/284666528605"
+    },
+    {
+      "id": "pompompurin-strawberry",
+      "title": "PomPomPurin Strawberry Medium 25cm Plush",
+      "description": "This PomPomPurin strawberry series medium plush is super soft and cuddly and suitable for ages 6+. PomPomPurin is a super laidback golden retriever who loves naps and walks. He is also extremely friendly!",
+      "quantity": 2,
+      "price": 24.99,
+      "type": "plush",
+      "brand": "Sanrio",
+      "character": "PomPomPurin",
+      "main_image": "/images/pompompurin/pompompurin-main.png",
+      "summary_image": "/images/pompompurin/pompompurin-summ.png",
+      "main_images": {
+        "webp": "/images/pompompurin/pompompurin-main.webp",
+        "png": "/images/pompompurin/pompompurin-main.png"
+      },
+      "other_images": [
+        {
+          "webp": "/images/pompompurin/pompompurin-main.webp",
+          "png": "/images/pompompurin/pompompurin-main.png"
+        },
+        {
+          "webp": "/images/pompompurin/pompompurin-2.webp",
+          "png": "/images/pompompurin/pompompurin-2.png"
+        },
+        {
+          "webp": "/images/pompompurin/pompompurin-3.webp",
+          "png": "/images/pompompurin/pompompurin-3.png"
+        }
+      ],
+      "featured": true,
+      "ebay_url": "https://www.ebay.co.uk/itm/284733016471"
+    },
+    {
+      "id": "cinnamoroll-strawberry",
+      "title": "Cinnamoroll Strawberry Medium 25cm Plush",
+      "description": "This Cinnamoroll strawberry series medium plush is super soft and cuddly and suitable for ages 6+. Cinnamoroll is a puppy with long ears that allows him to fly! His plump and curly tail resembles a cinnamon roll.",
+      "quantity": 3,
+      "price": 24.99,
+      "type": "plush",
+      "brand": "Sanrio",
+      "character": "Cinnamoroll",
+      "main_image": "/images/cinnamoroll/cinnamoroll-main.png",
+      "summary_image": "/images/cinnamoroll/cinnamoroll-summ.png",
+      "main_images": {
+        "webp": "/images/cinnamoroll/cinnamoroll-main.webp",
+        "png": "/images/cinnamoroll/cinnamoroll-main.png"
+      },
+      "other_images": [
+        {
+          "webp": "/images/cinnamoroll/cinnamoroll-main.webp",
+          "png": "/images/cinnamoroll/cinnamoroll-main.png"
+        },
+        {
+          "webp": "/images/cinnamoroll/cinnamoroll-2.webp",
+          "png": "/images/cinnamoroll/cinnamoroll-2.png"
+        },
+        {
+          "webp": "/images/cinnamoroll/cinnamoroll-3.webp",
+          "png": "/images/cinnamoroll/cinnamoroll-3.png"
+        }
+      ],
+      "featured": false,
+      "ebay_url": "https://www.ebay.co.uk/itm/284733065485"
+    },
+    {
+      "id": "pochaco-strawberry",
+      "title": "Pochaco Strawberry Medium 25cm Plush",
+      "description": "This Pochaco strawberry series medium plush is super soft and cuddly and suitable for ages 6+. Pochaco is a white dog with black floppy ears who loves football, basketball and skate-boarding. He is accident prone and trips up often!",
+      "quantity": 3,
+      "price": 24.99,
+      "type": "plush",
+      "brand": "Sanrio",
+      "character": "Pochaco",
+      "main_image": "/images/pochaco/pochaco-main.png",
+      "summary_image": "/images/pochaco/pochaco-summ.png",
+      "main_images": {
+        "webp": "/images/pochaco/pochaco-main.webp",
+        "png": "/images/pochaco/pochaco-main.png"
+      },
+      "other_images": [
+        {
+          "webp": "/images/pochaco/pochaco-main.webp",
+          "png": "/images/pochaco/pochaco-main.png"
+        },
+        {
+          "webp": "/images/pochaco/pochaco-2.webp",
+          "png": "/images/pochaco/pochaco-2.png"
+        },
+        {
+          "webp": "/images/pochaco/pochaco-3.webp",
+          "png": "/images/pochaco/pochaco-3.png"
+        }
+      ],
+      "featured": true,
+      "ebay_url": "https://www.ebay.co.uk/itm/284733131075"
+    },
+    {
+      "id": "mymelody-strawberry",
+      "title": "My Melody Strawberry Medium 25cm Plush",
+      "description": "This My Melody strawberry series medium plush is super soft and cuddly and suitable for ages 6+. My Melody is a rabbit born in London, England. She is Hello Kitty's best friend and is very honest and good natured.",
+      "quantity": 3,
+      "price": 24.99,
+      "type": "plush",
+      "brand": "Sanrio",
+      "character": "My Melody",
+      "main_image": "/images/mymelody/mymelody-main.png",
+      "summary_image": "/images/mymelody/mymelody-summ.png",
+      "main_images": {
+        "webp": "/images/mymelody/mymelody-main.webp",
+        "png": "/images/mymelody/mymelody-main.png"
+      },
+      "other_images": [
+        {
+          "webp": "/images/mymelody/mymelody-main.webp",
+          "png": "/images/mymelody/mymelody-main.png"
+        },
+        {
+          "webp": "/images/mymelody/mymelody-2.webp",
+          "png": "/images/mymelody/mymelody-2.png"
+        },
+        {
+          "webp": "/images/mymelody/mymelody-3.webp",
+          "png": "/images/mymelody/mymelody-3.png"
+        }
+      ],
+      "featured": false,
+      "ebay_url": "https://www.ebay.co.uk/itm/284733137726"
+    }
+  ]
+}

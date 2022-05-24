@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  /* column-gap: 6.4rem;
+  row-gap: 9.6rem; */
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+

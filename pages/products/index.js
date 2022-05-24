@@ -1,33 +1,28 @@
 import path from 'path';
 import fs from 'fs/promises';
 import Head from 'next/head';
-import HomeHeading from '../components/home/home-heading';
-import ProductsList from '../components/products/productsList';
+import ProductsList from '../../components/products/productsList';
 
-function HomePage(props) {
+function AllProductsPage(props) {
   const { products } = props;
-  
   return (
     <>
       <Head>
-        <title>
-          Japanese San-X Sumikko Gurashi and Sanrio UK shop - Ayrashee Gyo
-        </title>
+        <title>Ayrashee Gyo - Japanese brand toys for sale in the UK</title>
         <meta
           name="description"
-          content="Cute Japanese plush toys for sale in the UK at competitive prices. Stockists of San-X Sumikko Gurashi and Sanrio. Free delivery."
+          content="Cute Japanese plush toys for sale in the UK at competitve prices. Stockists of San-X Sumikko Gurashi and Sanrio. Free delivery."
         />
         <meta
           name="keywords"
           content="Japanese, Plush, Sanrio, San-X, Sumikko Gurashi"
         ></meta>
       </Head>
-      <HomeHeading />
-
+      
       <ProductsList
-        title="Featured Plushies"
+        title="All Plushies"
         products={products}
-        gridType="grid--2-cols"
+        gridType="grid--3-cols"
       />
     </>
   );
@@ -35,7 +30,7 @@ function HomePage(props) {
 
 export async function getStaticProps(context) {
   const filePath = path.join(process.cwd(), 'data', 'products.json');
-  const jsonData = await fs.readFile(filePath, 'utf8');
+  const jsonData = await fs.readFile(filePath);
   const data = JSON.parse(jsonData);
 
   if (!data) {
@@ -50,13 +45,15 @@ export async function getStaticProps(context) {
     return { notFound: true }; // will render 404 page
   }
 
-  const featuredProducts = data.products.filter((item) => item.featured);
+  const availableProducts = data.products.filter(
+    (item) => item.quantity > 0
+  );
 
   return {
     props: {
-      products: featuredProducts,
-    }
+      products: availableProducts,
+    }   
   }; 
 }
 
-export default HomePage;
+export default AllProductsPage;

@@ -1,0 +1,46 @@
+.btn {
+  width: 15rem;
+  height: 3.5rem;
+  padding: 0.8rem 1.6rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.btn-large {
+  width: 20rem;
+  height: 4.5rem;
+  font-size: 1.6rem;
+}
+
+.btn-full {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 3px solid var(--primary-color);
+}
+
+.btn-full:hover {
+  background-color: var(--primary-color-shade);
+}
+
+.btn-outline:hover {
+  color: var(--primary-color-shade);
+  border-color: var(--primary-color-shade);
+}
+
+@media (max-width: 950px) {
+  .btn-large {
+    width: 17rem;
+    height: 3.5rem;
+    font-size: 1.2rem;
+  }
+}
